@@ -1,0 +1,14 @@
+---
+layout: default
+excerpt: Samina's retreat talk
+title: Samina's retreat talk
+permalink: /
+label: home
+---
+
+{% for slide in site.posts %}
+  <section class="slide">
+    {{ slide }}
+  </section>
+{% endfor %}
+<script src="/assets/js/slides.js"></script>
